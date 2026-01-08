@@ -1,33 +1,69 @@
-# 🏠 House Price Prediction – Simple Linear Regression
+Overview
 
-This mini-project demonstrates how I used simple linear regression to predict house prices based on house size. It’s part of my “Simple ML Project” repo, where I practice new machine learning concepts with small, focused projects.
+This project implements a basic Machine Learning model to predict house prices using historical housing data.
+It demonstrates the complete ML workflow including data preprocessing, exploratory analysis, model training, and evaluation using Python.
 
-## 📊 What’s Inside
+The project is intentionally kept simple to strengthen core Machine Learning fundamentals.
 
-- A Jupyter Notebook (`house-price-prediction.ipynb`) with:
-  - Data loading and exploration
-  - Data visualization
-  - Building and training a linear regression model
-  - Model evaluation (accuracy)
-  - Code comments and markdown explanations
+Problem Statement
 
-- A sample dataset (`house_prices.csv`)
+House prices depend on multiple factors such as property features and location-related attributes.
+The goal of this project is to analyze these factors and build a regression model that can predict house prices accurately.
 
-## 🧠 What I Learned
+Project Files
+house_prices.csv
+house-price-prediction.ipynb
+README.md
 
-- How to apply linear regression to a real-world regression problem
-- Basic data cleaning and visualization
-- Splitting data into training and test sets
-- Evaluating model performance
 
-## 🚀 How to Use
+house_prices.csv – Dataset used for training and testing
 
-1. Open the notebook in Jupyter or VS Code.
-2. Run the cells step by step to see the workflow.
-3. Check out the code comments and markdowns for explanations.
+house-price-prediction.ipynb – Jupyter Notebook containing full implementation
 
-Feel free to use this as a reference or starting point for your own ML learning journey!
+Dataset
 
----
+Contains numerical features related to house properties
 
-This project is for learning and practice only. For more projects and concepts, check out the main repo!
+Target variable represents house price
+
+Dataset was cleaned and prepared before model training
+
+Technologies Used
+
+Python
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+scikit-learn
+
+Jupyter Notebook
+
+Methodology
+
+Data loading and inspection
+
+Data cleaning and preprocessing
+
+Exploratory Data Analysis (EDA)
+
+Feature selection
+
+Train-test split
+
+Model training using Linear Regression
+
+Model evaluation using prediction metrics
+
+Results
+
+The regression model successfully learned patterns in the data
+
+Predictions closely follow actual house prices
+
+Visualizations help understand feature impact on pricing
